@@ -1,0 +1,40 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color:#F5F5F5;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #EEEEEE;
+}
+
+.navbar-default .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1.5em;
+/*    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #616161;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+    letter-spacing: 3px;
+    margin: 20px; 20px;
+    padding: 10px; 10px;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 20px; 20px;
+/*    color: #424242; ????????????*/
+}
+.container img {
+  height: 600;
+}
