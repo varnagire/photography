@@ -10,6 +10,24 @@ body {
     color: #333;
 }
 
+/******************************* Layout **********************************/
+.container {
+    padding: 0px;
+}
+
+.main-content {
+    margin-top: 40px;
+}
+
+.img-responsive {
+  padding: 0px;
+}
+
+.photo {
+  margin: 10px 0 10px 0;
+}
+
+/******************************* Header & Footer **********************************/
 .navbar-default,
 .footer {
     border-color: transparent;
@@ -35,18 +53,12 @@ body {
     margin: 20px; 20px;
 /*    color: #424242; ????????????*/
 }
-.container {
-    padding: 0px;
-/*
-    margin-left: auto;
-    background-color: red;
-*/
-}
 
-.img-responsive {
-  padding: 0px;
-}
+/******************************* Media Queries **********************************/
 
-.photo {
-  margin: 10px 0 10px 0;
+@media (min-width: 980px) {
+  body {
+    padding-top: 60px;
+    padding-bottom: 42px;
+  }
 }
