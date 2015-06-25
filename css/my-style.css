@@ -40,7 +40,7 @@ body {
 
 footer {
     height: 60px;
-    background-color:darkgrey;
+    background-color:#EEEEEE;
     margin-bottom: 0;
 }
 .navbar-default .navbar-brand {
@@ -72,6 +72,11 @@ footer {
 .profile-photo {
     height: 300px;
     width: 300px;
+}
+
+.social-icon {
+    margin: 15px 3px;
+    
 }
 /******************************* Media Queries **********************************/
 
