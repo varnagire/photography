@@ -1,6 +1,6 @@
 
-/************ Masonry grid  ********************/
-
+//// Masonry grid  
+//
 $(document).ready(function(){
   var $container = $('.container');
 
@@ -12,3 +12,5 @@ $(document).ready(function(){
     });
   });
 });
+
+
