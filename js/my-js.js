@@ -1,3 +1,6 @@
+
+/************ Masonry grid  ********************/
+
 $(document).ready(function(){
   var $container = $('.container');
 
