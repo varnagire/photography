@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/my-style.css" rel="stylesheet" media="screen">
-   
+
     <title>A.V Photography</title>
 
   </head>
   <body>
-      
+
     <!-- Header --> 
-    
+
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
-        
+
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -25,32 +25,67 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="index.html">Asta Photography</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Asta Photography</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden"><a href="#page-top"></a> </li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="dropdown">
-                        <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">People</a></li>
-                                <li><a href="#">Wildlife</a></li>
-                                <li><a href="#">Landscapes</a></li>
-                                <li><a href="#">Cities</a></li>
-                            </ul>
-                    </li>
+                    <li><a class="page-scroll" href="about.html">About</a></li>
+                    <li><a class="page-scroll" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="page-scroll" href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-    
-
-         <footer class="navbar-fixed-bottom">
+<!--****************** Main Content *********************-->
+      
+<div class="container main-content">
+     <div class="row">
+         <form class="form-horizontal" role="form" method="post" action="index.php">
+            <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+                    </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+                    </div>
+             </div>
+            <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">Message</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" rows="4" name="message"></textarea>
+                    </div>
+             </div>
+            <div class="form-group">
+                <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+                    </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                    <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                </div>
+             </div>
+            <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+<!--            <! Will be used to display an alert to the user>-->
+                </div>
+             </div>
+        </form>
+     </div>
+</div>
+      
+<!--/*************** Footer *****************/-->
+      <footer class="navbar-fixed-bottom">
         <div class="container">
              <div class="row">
                  <div class="col-sm-6 hidden-xs">
@@ -63,8 +98,8 @@
                  </div>
             </div>
      </div>
-      </footer>
-      
+    </footer>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
