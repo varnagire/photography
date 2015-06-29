@@ -76,6 +76,9 @@ footer {
     margin: 15px 3px;
 }
 
+#masonry {
+    margin-top: 40px;
+}
 a[href^="mailto:"]
 { 
   color:#333;

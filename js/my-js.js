@@ -2,7 +2,7 @@
 //// Masonry grid  
 //
 $(document).ready(function () {
-    var $container = $('.container');
+    var $container = $('#masonry');
     
     if ($(window).width() >= 767) {
         $container.imagesLoaded(function () {
