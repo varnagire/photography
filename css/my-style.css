@@ -85,14 +85,6 @@ a[href^="mailto:"]
   font-size: 1em;
 }
 
-/*
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-  }
-*/
-
 
 /******************************* Pseudo Classes ************************/
 a[href^="mailto:"]:hover {
