@@ -126,6 +126,25 @@ a[href^="mailto:"]:hover {
        -o-transition-property: left, right, top;
           transition-property: left, right, top;
 }
+
+/******************************* Overlay effect **************************/
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 /******************************* Media Queries **********************************/
 
 @media (min-width: 980px) {
