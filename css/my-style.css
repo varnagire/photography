@@ -76,9 +76,7 @@ footer {
     margin: 15px 3px;
 }
 
-#masonry {
-    margin-top: 40px;
-}
+
 a[href^="mailto:"]
 { 
   color:#333;
@@ -101,7 +99,9 @@ a[href^="mailto:"]:hover {
 }
 
 /******************************* Masonry ****************************/
-
+#masonry {
+    margin-top: 10px;
+}
 
 #masonry .masonry-brick {
   -webkit-transition-duration: 0.7s;
@@ -143,8 +143,26 @@ a[href^="mailto:"]:hover {
 #overlay img {
     margin-top: 10%;
     margin-bottom: 10%;
+    position: relative;
 }
 
+#masonry {
+    overflow: hidden;
+    position: relative;
+}
+#button-prev {  
+    position: absolute;  
+    top: 180px;  
+    cursor: pointer;  
+    left: -45px;  
+}  
+  
+#button-next {  
+    position: absolute;  
+    top: 180px;  
+    cursor: pointer;  
+    right: -45px;  
+} 
 /******************************* Media Queries **********************************/
 
 @media (min-width: 980px) {
