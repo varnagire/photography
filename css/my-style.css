@@ -170,7 +170,6 @@ a[href^="mailto:"]:hover {
         padding-top: 60px;
         margin-top: 50px;
   }
-/*
 
 @media (max-width: 319px) {
     footer {
@@ -182,10 +181,11 @@ a[href^="mailto:"]:hover {
     .copyright {
         margin-bottom: 30px;
     }
+/*
     .navbar-header a {
         padding-bottom: 30px;
         margin-bottom: 50px;
     }
+*/
 }
 
-*/
