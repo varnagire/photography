@@ -8,12 +8,12 @@ body {
     font-size: 14px;
     line-height: 1.428571429;
     color: #333;
-    padding-bottom: 0;
 }
 
 /******************************* Layout **********************************/
 .container {
     padding: 0px;
+    margin-bottom: -20px;
 }
 
 .main-content {
@@ -25,23 +25,38 @@ body {
 }
 
 .photo {
-    margin: 10px 0 10px 0;
+    margin: 5px 0 5px 0;
     padding-left: 0px;
 }
+
 .about {
     margin-top:100px;
 }
 
+.quote {
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: "Lobster";
+    margin-bottom: 50px;
+}
+
+.about {
+    margin-top: 15px;
+}
 /******************************* Header & Footer **********************************/
 .navbar-default {
     border-color: transparent;
     background-color:#EEEEEE;
+    margin-bottom: 40px;
+    
 }
 .navbar-default .navbar-brand {
     text-transform: uppercase;
     font-size: 1.5em;
 /*    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
-    font-family: 'PT Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lobster",'PT Sans',Helvetica, Arial,sans-serif;
     color: #616161;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
     font-weight: 500;
@@ -59,17 +74,12 @@ body {
 footer {
     height: 100px;
     background-color:#EEEEEE;
-    margin-bottom: 0;
+    margin-top: 20px;
 }
 .copyright {
 	opacity: .8;
 	font-size: .9em;
     margin-top: 45px;
-}
-
-.profile-photo {
-    height: 300px;
-    width: 300px;
 }
 
 .social-icon {
@@ -83,7 +93,6 @@ a[href^="mailto:"]
   font-size: 1em;
 }
 
-
 /******************************* Pseudo Classes ************************/
 a[href^="mailto:"]:hover {
     color:dimgrey;
@@ -94,9 +103,10 @@ a[href^="mailto:"]:hover {
     height: 32px;
     top: -1px;
     left: -1px;
-    background-color: #BDBDBD;
+    background-color:#BDBDBD;
     border-radius: 50%;
 }
+
 
 /******************************* Masonry ****************************/
 #masonry {
@@ -144,37 +154,38 @@ a[href^="mailto:"]:hover {
     margin-top: 10%;
     margin-bottom: 10%;
     position: relative;
+    max-height: 75%;
 }
 
 #masonry {
     overflow: hidden;
     position: relative;
 }
-#button-prev {  
-    position: absolute;  
-    top: 180px;  
-    cursor: pointer;  
-    left: -45px;  
-}  
-  
-#button-next {  
-    position: absolute;  
-    top: 180px;  
-    cursor: pointer;  
-    right: -45px;  
-} 
+
+
 /******************************* Media Queries **********************************/
 
 @media (min-width: 980px) {
     body {
         padding-top: 60px;
         margin-top: 50px;
-/*    padding-bottom: 42px;*/  
   }
 /*
-    .caroudel-inner img {
-        height: 820px;
-        width: 100%;
+
+@media (max-width: 319px) {
+    footer {
+        margin:0px;
     }
-*/
+    .social-icon {
+        margin-top: 20px;
+    }
+    .copyright {
+        margin-bottom: 30px;
+    }
+    .navbar-header a {
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
 }
+
+*/
