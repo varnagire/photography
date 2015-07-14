@@ -14,11 +14,15 @@ $("body").append($overlay);
 
 
 $(".photo a").click(function (event) {
+    if ($(window).width() > 768) {
         event.preventDefault();
         var href = $(this).attr("href");
         var imageLocation = $(this).attr("href");
         $image.attr("src", imageLocation);
         $overlay.show();
+    } else {
+        event.preventDefault();
+    }
 });
     
 //When overlay is clicked

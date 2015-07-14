@@ -194,7 +194,6 @@ a[href^="mailto:"]:hover {
     }
     .photo {
         margin: 2px 0px 0px 2px;
-        display:none;
 
     }
 }
