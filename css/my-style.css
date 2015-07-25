@@ -57,6 +57,10 @@ h2 {
     margin: 20px; 20px;
 }
 
+.navbar-header button {
+    border:none;
+}
+
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family:'PT Sans', 'Courier New', Helvetica, Arial, sans-serif;
@@ -64,6 +68,7 @@ h2 {
     letter-spacing: 1px;
     margin: 20px; 20px;
 }
+
 footer {
     height: 80px;
     background-color:#EEEEEE;
@@ -166,6 +171,9 @@ a[href^="mailto:"]:hover {
 
 
 @media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
     .quote {
         margin-top: 15px;
         margin-bottom: 5px;
@@ -192,5 +200,25 @@ a[href^="mailto:"]:hover {
     footer {
         height: 50px;
     }
+    
+    .navbar-brand {
+    margin-top: 50px;
+    }
+    .navbar-header button {
+        margin-top:20px;    
+    }
+
 }
     
+@media only screen and (max-width:371px) {
+    .navbar-brand {
+        padding: 17px 10px 10px 0;
+        margin-right: 5px;
+        margin-left:3px;
+        margin-top: 5px;
+    }
+     .navbar-header button {
+        margin-top: 30px;
+        margin-right: 15px;
+    }
+}
